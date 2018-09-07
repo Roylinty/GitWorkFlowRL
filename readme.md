@@ -36,10 +36,10 @@ git reset --hard origin/master
 ```
 
 ### Create a new branch. 
-Use the command `git branch gowridatta-feature-branch`.
+Use the command `git branch gowridatta-feature-branch` _(use your own branch name)_.
 
 ### Switch to the branch you created.
-Use the command `git checkout gowridatta-feature-branch`.
+Use the command `git checkout gowridatta-feature-branch` _(use your own branch name)_.
 
 ### Create the file
 Create a file with some text in it
@@ -48,10 +48,10 @@ Create a file with some text in it
 Use the command `git add -A` to add all changes made.
 
 ### Commit changes
-Use the command `git commit -m "Your descriptive sentence"`.
+Use the command `git commit -m "Add readme"` _(insert your own message)_.
 
 ### Push to github
-Use the command `git push -u origin gowridatta-feature-branch`.
+Use the command `git push -u origin gowridatta-feature-branch` _(use your own branch name)_.
 
 ### Submit a pull request.
 And merge!
