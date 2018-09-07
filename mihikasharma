@@ -1,1 +1,35 @@
 This is my dope file.
+Feature Branch Workflow.
+
+Team Members: Mihika Sharma, Chloe Bercy, Roy Lin, Gowri Datta, and Nicholas Rocchi.
+
+Basic Git Workflow: Essentially having everybody work on the same repository, pushing their changes to that repository.
+
+Feature Branch Git Workflow: A method of organization when multiple people are working on the same project. Members are required to create new branches to add new features, and merge everything once complete to avoid conflict.
+
+Key Differences: A feature branch workflow allows members to individually work on their own projects while in a team, preserving the working model with a lower risk of conflict and confusion.
+
+Link to your Git example repository: https://github.com/Roylinty/GitWorkFlowRL.git
+
+Diagram of workflow: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiesojdtqndAhUoITQIHQ_SCQUQjRx6BAgBEAU&url=https%3A%2F%2Fgithub.com%2FIntegratedBreedingPlatform%2FDocumentation%2Fwiki%2FGit-Workflow&psig=AOvVaw04m6_uGPTcf0mptZdCPY4g&ust=1536428064805969
+
+Process:
+
+git clone https://github.com/Roylinty/GitWorkFlowRL.git
+
+git branch [branch name] // creates a branch that you should name something unique
+
+git checkout master // switches branch
+
+// create the file 
+
+git add -A // adds all the changes made in your file
+
+git commit -m "message here, make it clear"
+
+git push -u origin [branch name] // pushes the file into the branch
+
+git merge [branch name] // merges your branch with the master and adds the file to the master
+
+// submit a pull request and merge
+// after this, you should see your file pop up in the master branch
