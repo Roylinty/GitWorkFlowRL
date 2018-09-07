@@ -1,0 +1,44 @@
+Template for each group’s GIT workflow
+
+
+Team Names:  Mihika Sharma, Chloe Bercy, Roy Lin, Gowri Datta
+
+Name of Workflow:  Feature Branch
+
+Description of Basic Git workflow: Everyone independently working on the same version of a project, pushing and pulling files into and from the repository.
+
+Description of __Your Workflow Name___ workflow: Feature branches are diverging versions of one core project, usually to help organize and help with releasing versions of a project when multiple things are being worked on at once.
+
+Key Differences from basic workflow, and key use cases This workflow allows others to work on different entire versions and push their changes to their version , not all into a central version.
+
+Link to your Git example repository: https://github.com/Roylinty/GitWorkFlowRL.git
+
+Diagram or Diagrams of workflow: (links to pics)
+https://camo.githubusercontent.com/acde20d10657c40d3f421204524ab19ed4e4b810/687474703a2f2f696d6167652e736c696465736861726563646e2e636f6d2f6769746272616e63686d616e6167656d656e742d3134303330313034303834302d70687061707030322f39352f6769742d6272616e63682d6d616e6167656d656e742d362d3633382e6a70673f63623d31333933363437313232
+https://buddy.works/blog/images/feature-branch.png
+
+Documentation of git commands used, and sample sequence of commands used in creating your repository
+
+
+# Feature Branch Workflow
+
+## Git branch [new branch]
+ I would name the branch my name to avoid confusion, creates new branch
+ 
+ ## Git checkout [branch name]
+switches branch, replace [branch name] with NicholasRocchi
+
+ ## Create the file
+Create a file with some text in it
+
+## Git add [file name]
+adds the file to staging
+
+## Git commit -m "Bottom Text"
+commits file to repository
+
+## Git push -u
+pushes file into branch
+
+## Git merge [branch]
+merges work done on my branch to other branch, change branch to my name
