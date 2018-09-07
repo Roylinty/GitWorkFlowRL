@@ -1,4 +1,4 @@
-(tried my best and used logical guessing, idk if it is 100% right)
+Written by Chloe:
 
 Team Names:  Gowri Datta, Roy Lin, Nicholas Rocchi, Mihika Sharma, Chloe Bercy
 
